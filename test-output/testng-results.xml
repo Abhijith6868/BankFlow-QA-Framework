@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-13T23:41:01 IST" name="Default suite" finished-at="2026-05-13T23:41:05 IST" duration-ms="3672">
+    <groups>
+    </groups>
+    <test started-at="2026-05-13T23:41:01 IST" name="Default test" finished-at="2026-05-13T23:41:05 IST" duration-ms="3672">
+      <class name="tests.ui.BaseTest">
+        <test-method is-config="true" signature="suitesetup()[pri:0, instance:tests.ui.BaseTest@3a52dba3]" started-at="2026-05-13T23:41:01 IST" name="suitesetup" finished-at="2026-05-13T23:41:01 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitesetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.BaseTest@3a52dba3]" started-at="2026-05-13T23:41:01 IST" name="setup" finished-at="2026-05-13T23:41:04 IST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBaseURL()[pri:0, instance:tests.ui.BaseTest@3a52dba3]" started-at="2026-05-13T23:41:04 IST" name="verifyBaseURL" finished-at="2026-05-13T23:41:04 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBaseURL -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.BaseTest@3a52dba3]" started-at="2026-05-13T23:41:04 IST" name="tearDown" finished-at="2026-05-13T23:41:05 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBaseURL status=SUCCESS method=BaseTest.verifyBaseURL()[pri:0, instance:tests.ui.BaseTest@3a52dba3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="suitetearDown()[pri:0, instance:tests.ui.BaseTest@3a52dba3]" started-at="2026-05-13T23:41:05 IST" name="suitetearDown" finished-at="2026-05-13T23:41:05 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitetearDown -->
+      </class> <!-- tests.ui.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
